@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>my first webpage</title>
-    <style>
-      img {
-        width: 100px;
-        border-radius: 50px;
-        float: left;
-        margin-right: 10px;
-      }
-
-      .username {
-        font-weight: bold;
-      }
-    </style>
-    <meta charset="UTF-8">
-    <meta name=""viewport content="width=device-width, initial-scale=1.0">
-<meta name="description"content="ente plz">
+<html lang="en">
+<head>
+    <!-- Font Awesome 5 CDN link to add icones -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Sign Up</title>
+    <!-- Linking .css file with HTML page -->
+    <link rel="stylesheet" href="style1.css">
 </head>
-  <body>
-    <img src="images/google.png" alt="image of google"/>
-    <p class="username">@amirsam41147</p>
-    <div>welcome to my website</div>
-    <div>i hope you like it(:</div>
-    <p>I want to learn<em>HTML!</em></p>
-    <ul>
-      <li><a href="http://google.com">how to enter google </a></li>
-      <li>
-        <a href="http://https://codewithmosh.com">click here to learn HTML</a>
-      </li>
-    </ul>
-  </body>
+<body>
+    <div>
+        <!-- Left section of signup form -->
+        <dive>
+            <h1>Sign Up</h1>
+            <h5>Welcome to my website!</h5>
+            <form action="" method="get">
+             <div>
+                <p><label for="userNmae">User Name</label></p>
+                <input type="text" id="userName" autocomplete="off" >
+             </div>
+             <div>
+                <p><label for="email">Email Address</label></p>
+                <input type="email" id="email" name="email" required autocomplete="off">
+             </div>
+             <div>
+                <p><label for="password">Password</label></p>
+                <input type="password" id="password" required >
+             </div>
+             <button type="button" id="btn">Sign Up Now</button>
+            </form>
+            <div></div>  
+            <!-- Adding social icones -->
+            <div> 
+               <div><i></i></div>
+               <div><i></i></div>
+               <div><i></i></i></div>
+            </div>
+        </dive>
+        <div> 
+        </div>
+    </div>
+</body>
 </html>
